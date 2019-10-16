@@ -9,7 +9,7 @@ namespace Serra
             string bene = "La temperatura va bene";
             string male = "La temperatura non va bene";
             string moltomale = "La serra è in pericolo";
-            Console.Write("Quanti gradi ci sono nella serra?");
+            Console.Write("Quanti gradi ci sono nella serra? ");
             double gradi = double.Parse(Console.ReadLine());
             if(gradi >= 18)
             {
